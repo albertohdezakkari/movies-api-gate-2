@@ -1,6 +1,6 @@
 import { Controller, Get } from '@nestjs/common';
 import { MoviesService } from './movies.service';
-import { Movie } from './entities/movie.entity';
+
 import { CreateMovieDto } from './dto/create-movie.dto';
 
 
